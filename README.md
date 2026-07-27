@@ -134,11 +134,20 @@ En conjunto, la utilización de una clase abstracta, la herencia, el polimorfism
 
 Requisitos: SDK de .NET y Windows.
 
-Ejecutar en la consola:
-```bash
-dotnet build
-dotnet run
-```
+### Opción 1: Desde Visual Studio
+1. Abrir el archivo de solución en Visual Studio.
+2. Hacer clic en el botón de **Iniciar** (botón de reproducción verde o presionar **F5**) en la barra de herramientas superior.
+
+### Opción 2: Desde Consola
+1. Abrir la terminal en el directorio raíz del proyecto.
+2. Compilar el proyecto:
+   ```bash
+   dotnet build
+   ```
+3. Ejecutar la aplicación:
+   ```bash
+   dotnet run
+   ```
 
 ## Capturas de Ejecución
 
