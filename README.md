@@ -61,24 +61,25 @@ A continuación se detallan los flujos demostrados en la ejecución de la aplica
 ### 1. Agregar Empleados
 *Se ingresa un empleado de cada tipo (Por Hora, Asalariado, Comisionista) validando que los datos se ajusten y se deshabiliten los campos no aplicables según la selección.*
 
-![Agregar Empleados](capturas/1_agregar_empleados.png)
+![Agregar Empleados](capturas/Cap1.png)
 
 ### 2. Calcular y Mostrar Salarios
 *La tabla muestra de forma instantánea el tipo de empleado, su descripción mediante `ToString()` y el salario final calculado automáticamente.*
 
-![Calcular Salarios](capturas/2_mostrar_salarios.png)
+![Calcular Salarios](capturas/Cap2.png)
 
 ### 3. Buscar un Empleado por ID
 *Uso de la función de búsqueda para cargar los detalles del empleado en los controles de edición.*
 
-![Buscar Empleado](capturas/3_buscar_id.png)
+![Buscar Empleado](capturas/Cap3.png)
 
 ### 4. Lanzamiento y Captura de Excepción Personalizada
 *Demostración de que si se intenta buscar o eliminar un ID inexistente, el programa lanza un error controlado por `EmpleadoNoEncontradoException` en un cuadro de diálogo sin colapsar.*
 
-![Manejo de Excepciones](capturas/4_excepcion_inexistente.png)
+![Manejo de Excepciones](capturas/Cap4.png)
 
-### 5. Guardar y Cargar desde CSV (Extra)
+### 5. Guardar y Cargar desde CSV 
 *Persistencia persistiendo los datos de la grilla en el archivo plano `empleados.csv` de manera transparente.*
 
-![Persistencia CSV](capturas/5_csv_persistencia.png)
+![Persistencia CSV](capturas/Cap5.png)
+![Persistencia CSV](capturas/Cap6.png)
