@@ -1,0 +1,16 @@
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\bin\Debug\net10.0-windows\TallerPoo.exe
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\bin\Debug\net10.0-windows\TallerPoo.deps.json
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\bin\Debug\net10.0-windows\TallerPoo.runtimeconfig.json
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\bin\Debug\net10.0-windows\TallerPoo.dll
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\bin\Debug\net10.0-windows\TallerPoo.pdb
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.frmGestionEmpleados.resources
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.csproj.GenerateResource.cache
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.AssemblyInfoInputs.cache
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.AssemblyInfo.cs
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.csproj.CoreCompileInputs.cache
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.dll
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\refint\TallerPoo.dll
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.pdb
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\TallerPoo.genruntimeconfig.cache
+C:\Users\dougl\Downloads\RegistroCelulares\RegistroCelulares\obj\Debug\net10.0-windows\ref\TallerPoo.dll
