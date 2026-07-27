@@ -48,17 +48,17 @@ namespace TallerPoo
             label1 = new Label();
             dgvEmpleados = new DataGridView();
             groupBoxReportes = new GroupBox();
+            lblSalario = new Label();
+            txtFiltroSalario = new TextBox();
+            btnFiltrarSalario = new Button();
+            lblTipo = new Label();
+            cmbFiltroTipo = new ComboBox();
+            btnFiltrarTipo = new Button();
+            btnMostrarTodos = new Button();
             btnBuscar = new Button();
             btnOrdenar = new Button();
-            btnFiltrarSalario = new Button();
-            txtFiltroSalario = new TextBox();
-            btnFiltrarTipo = new Button();
-            cmbFiltroTipo = new ComboBox();
-            btnMostrarTodos = new Button();
-            btnGuardarCSV = new Button();
             btnCargarCSV = new Button();
-            Label lblSalario = new Label();
-            Label lblTipo = new Label();
+            btnGuardarCSV = new Button();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvEmpleados).BeginInit();
             groupBoxReportes.SuspendLayout();
@@ -102,7 +102,7 @@ namespace TallerPoo
             // 
             // txtComision
             // 
-            txtComision.Location = new Point(177, 338);
+            txtComision.Location = new Point(208, 338);
             txtComision.Name = "txtComision";
             txtComision.Size = new Size(100, 29);
             txtComision.TabIndex = 16;
@@ -110,15 +110,15 @@ namespace TallerPoo
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(34, 341);
+            label7.Location = new Point(15, 341);
             label7.Name = "label7";
-            label7.Size = new Size(174, 21);
+            label7.Size = new Size(176, 21);
             label7.TabIndex = 15;
             label7.Text = "Comisión % (Comisión):";
             // 
             // txtVentas
             // 
-            txtVentas.Location = new Point(177, 286);
+            txtVentas.Location = new Point(208, 286);
             txtVentas.Name = "txtVentas";
             txtVentas.Size = new Size(100, 29);
             txtVentas.TabIndex = 14;
@@ -126,15 +126,15 @@ namespace TallerPoo
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(34, 289);
+            label6.Location = new Point(15, 289);
             label6.Name = "label6";
-            label6.Size = new Size(175, 21);
+            label6.Size = new Size(187, 21);
             label6.TabIndex = 13;
             label6.Text = "Ventas Realiz. (Comisión):";
             // 
             // txtHoras
             // 
-            txtHoras.Location = new Point(177, 234);
+            txtHoras.Location = new Point(208, 234);
             txtHoras.Name = "txtHoras";
             txtHoras.Size = new Size(100, 29);
             txtHoras.TabIndex = 12;
@@ -142,15 +142,15 @@ namespace TallerPoo
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(34, 237);
+            label5.Location = new Point(15, 237);
             label5.Name = "label5";
-            label5.Size = new Size(168, 21);
+            label5.Size = new Size(166, 21);
             label5.TabIndex = 11;
             label5.Text = "Horas Trab. (Por Hora):";
             // 
             // txtSueldo
             // 
-            txtSueldo.Location = new Point(177, 182);
+            txtSueldo.Location = new Point(208, 182);
             txtSueldo.Name = "txtSueldo";
             txtSueldo.Size = new Size(100, 29);
             txtSueldo.TabIndex = 10;
@@ -158,9 +158,9 @@ namespace TallerPoo
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(34, 185);
+            label4.Location = new Point(15, 185);
             label4.Name = "label4";
-            label4.Size = new Size(130, 21);
+            label4.Size = new Size(127, 21);
             label4.TabIndex = 9;
             label4.Text = "Sueldo/Tarifa ($):";
             // 
@@ -168,7 +168,7 @@ namespace TallerPoo
             // 
             cmbTipo.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbTipo.FormattingEnabled = true;
-            cmbTipo.Location = new Point(177, 130);
+            cmbTipo.Location = new Point(208, 130);
             cmbTipo.Name = "cmbTipo";
             cmbTipo.Size = new Size(100, 29);
             cmbTipo.TabIndex = 8;
@@ -176,15 +176,15 @@ namespace TallerPoo
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(34, 133);
+            label3.Location = new Point(15, 133);
             label3.Name = "label3";
-            label3.Size = new Size(138, 21);
+            label3.Size = new Size(137, 21);
             label3.TabIndex = 7;
             label3.Text = "Tipo de Empleado:";
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(177, 78);
+            txtNombre.Location = new Point(208, 78);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(100, 29);
             txtNombre.TabIndex = 6;
@@ -192,9 +192,9 @@ namespace TallerPoo
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(34, 81);
+            label2.Location = new Point(15, 81);
             label2.Name = "label2";
-            label2.Size = new Size(137, 21);
+            label2.Size = new Size(143, 21);
             label2.TabIndex = 5;
             label2.Text = "Nombre Completo:";
             // 
@@ -210,7 +210,7 @@ namespace TallerPoo
             // 
             // txtId
             // 
-            txtId.Location = new Point(177, 26);
+            txtId.Location = new Point(208, 26);
             txtId.Name = "txtId";
             txtId.Size = new Size(100, 29);
             txtId.TabIndex = 3;
@@ -228,9 +228,9 @@ namespace TallerPoo
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 29);
+            label1.Location = new Point(15, 29);
             label1.Name = "label1";
-            label1.Size = new Size(125, 21);
+            label1.Size = new Size(126, 21);
             label1.TabIndex = 1;
             label1.Text = "ID del Empleado:";
             // 
@@ -381,7 +381,7 @@ namespace TallerPoo
             Margin = new Padding(4);
             Name = "frmGestionEmpleados";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Sistema de Gestión de Empleados - Douglas Sánchez";
+            Text = "Sistema de Gestión de Empleados ";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvEmpleados).EndInit();
@@ -421,5 +421,7 @@ namespace TallerPoo
         private Button btnMostrarTodos;
         private Button btnGuardarCSV;
         private Button btnCargarCSV;
+        private Label lblSalario;
+        private Label lblTipo;
     }
 }
