@@ -3,10 +3,10 @@
 Este proyecto es una aplicación de escritorio desarrollada en C# utilizando Windows Forms. Permite gestionar una nómina de empleados de una empresa aplicando los conceptos fundamentales de la Programación Orientada a Objetos (POO): herencia, clases abstractas, polimorfismo y manejo de excepciones.
 
 ## Integrantes del Equipo
-* Douglas Sánchez
-* [Integrante 2]
-* [Integrante 3]
-* [Integrante 4]
+* Alexandra Elizabeth Alvarado Bautista  AB260167 
+* Daniel Steven Palacios Flores PF260246 
+* Douglas Emmanuel Sánchez Rivera SR260165
+* Karla Angie Arias Pérez FP260345
 
 ---
 
