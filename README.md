@@ -4,7 +4,7 @@ Este proyecto es una aplicación de escritorio desarrollada en C# utilizando Win
 
 ## Integrantes del Equipo
 * Alexandra Elizabeth Alvarado Bautista  AB260167 
-* Daniel Steven Palacios Flores PF270246 
+* Daniel Steven Palacios Flores PF260246 
 * Douglas Emmanuel Sánchez Rivera SR260165
 * Karla Angie Arias Pérez AP260403
 
